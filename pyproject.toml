@@ -2,13 +2,14 @@
 name = "homework-webpython-05"
 version = "0.1.0"
 description = ""
-authors = ["Your Name <you@example.com>"]
+authors = ["Andrey Maibrodskiy <andrey.maybrodskyy@gmail.com>"]
 license = "MIT"
 readme = "README.md"
 packages = [{include = "homework_webpython_05"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
+aiohttp = "3.8.3"
 
 
 [build-system]
